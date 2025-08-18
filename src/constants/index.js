@@ -9,131 +9,144 @@ import { VscVscode } from 'react-icons/vsc';
 
 export const navLinks = [
   { id: "about", title: "About" },
+  { id: "experience", title: "Experience" },
   { id: "projects", title: "Projects" },
   { id: "publications", title: "Publications" },
   { id: "skills", title: "Skills" },
-  { id: "certifications", title: "Certifications" },
+  { id: "certifications", title: "Certifications" }, 
   { id: "contact", title: "Contact" },
 ];
 
 export const contactInfo = {
   email: "tanvikreddy123@gmail.com",
   phone: "(813) 405-5927",
-  github: "https://github.com/tanvikreddy123", 
+  github: "https://github.com/tanvikreddy123",
   linkedin: "https://www.linkedin.com/in/tanvikreddy",
 };
 
 export const skills = [
   {
-    category: "Languages",
+    category: "Programming Languages",
     items: [
       { name: "Java", icon: FaJava },
-      { name: "JavaScript", icon: SiJavascript },
-      { name: "SQL" },
+      { name: "JavaScript (ES6+)", icon: SiJavascript },
       { name: "Dart", icon: SiDart },
+      { name: "SQL" },
     ],
   },
   {
-    category: "Frontend",
+    category: "Frontend Development",
     items: [
       { name: "React.js", icon: FaReact },
       { name: "React Native", icon: FaReact },
       { name: "Flutter", icon: SiFlutter },
+      { name: "HTML5 / CSS3" },
       { name: "Tailwind CSS", icon: SiTailwindcss },
-      { name: "SCSS", icon: SiSass },
       { name: "Bootstrap", icon: FaBootstrap },
-      { name: "Syncfusion UI" },
+      { name: "React Ecosystem (Redux, Context API, React Router)" },
     ],
   },
   {
-    category: "Backend",
+    category: "Backend & APIs",
     items: [
       { name: "Spring Boot", icon: SiSpringboot },
       { name: "Node.js", icon: FaNodeJs },
       { name: "Express.js", icon: SiExpress },
-      { name: "RESTful APIs" },
+      { name: "APIs: REST, GraphQL" },
+      { name: "Architecture: Microservices, MVC" },
+      { name: "Serverless (AWS Lambda)", icon: FaAws },
+      { name: "Data Formats: JSON, XML" },
     ],
   },
   {
     category: "Databases",
     items: [
       { name: "MySQL", icon: SiMysql },
-      { name: "Postgres", icon: SiPostgresql },
+      { name: "PostgreSQL", icon: SiPostgresql },
       { name: "MongoDB (Atlas)", icon: SiMongodb },
-      { name: "SQL Server" },
       { name: "Firebase Realtime DB" },
-    ],
-  },
-  {
-    category: "Auth & Security",
-    items: [
-      { name: "Spring Security", icon: SiSpring },
-      { name: "JWT" },
-      { name: "OAuth2" },
-      { name: "Role-Based Access Control (RBAC)" },
+      { name: "SQL Server" },
+      { name: "H2" },
     ],
   },
   {
     category: "Cloud & DevOps",
     items: [
-      { name: "AWS (EC2, S3, Lambda)", icon: FaAws },
-      { name: "CI/CD" },
+      { name: "AWS (EC2, S3, Lambda, API Gateway, SNS, SQS, EKS)", icon: FaAws },
+      { name: "Azure" },
+      { name: "Docker" },
+      { name: "Kubernetes" },
       { name: "Jenkins", icon: FaJenkins },
       { name: "GitHub Actions", icon: FaGithub },
-      { name: "API Gateway" },
+      { name: "CI/CD Pipelines" },
     ],
   },
   {
-    category: "Developer Tools",
+    category: "Security & Testing",
+    items: [
+      { name: "Spring Security" },
+      { name: "JWT / OAuth2 / RBAC" },
+      { name: "HTTPS / SSL/TLS / API Authentication" },
+      { name: "JUnit" },
+      { name: "Unit & API Testing" },
+      { name: "Test-Driven Development (TDD)" },
+      { name: "Agile/Scrum" },
+      { name: "Git Branching" },
+    ],
+  },
+  {
+    category: "Tools & Development",
     items: [
       { name: "Git", icon: FaGitAlt },
-      { name: "IntelliJ", icon: SiIntellijidea },
+      { name: "IntelliJ IDEA", icon: SiIntellijidea },
       { name: "VS Code", icon: VscVscode },
       { name: "Postman", icon: SiPostman },
       { name: "Jira", icon: FaJira },
       { name: "Confluence", icon: FaConfluence },
-    ],
-  },
-  {
-    category: "Testing & Practices",
-    items: [
-      { name: "JUnit" },
-      { name: "Test-Driven Development (TDD)" },
-      { name: "Agile/Scrum" },
+      { name: "Swagger (OpenAPI)" },
     ],
   },
 ];
 
+
+
 export const projects = [
   {
     title: "Personalized Food Rx – AI-Powered Health Chatbot App",
-    description: "A cross-platform mobile app built with Flutter to deliver AI-driven nutrition education via Dialogflow CX. Features secure OAuth2 integration and a modular architecture, with personalized content managed through MongoDB Atlas.",
-    tags: ["Flutter", "Dialogflow CX", "MongoDB", "OAuth2"],
+    description: "Cross-platform Flutter app designed to empower users managing chronic conditions and food insecurity with personalized nutrition guidance. Combines an AI chatbot (Dialogflow CX), diet education, and smart health tips, supported by a Node.js backend, MongoDB Atlas, and secure OAuth2 authentication.",
+    tags: [],
     source_code_link: "https://github.com/tanvikreddy123/nutrimate-foodrx-healthbot",
     publication_link: "10.1109/SMARTCOMP65954.2025.00080",
     live_demo_link: "#", 
   },
   {
     title: "Art Gallery Store - Full-Stack MERN E-Commerce Platform",
-    description: "A full-stack e-commerce platform featuring a secure Node.js/Express RESTful API for CRUD operations and a dynamic React UI. Implements JWT for stateless authentication and owner-based authorization for content management.",
-    tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    description: "A full-stack MERN web application for an online art gallery store, featuring a secure Node.js/Express RESTful API with JWT authentication, owner-based authorization, and a dynamic React UI for managing art listings.",
+    tags: [],
     source_code_link: "https://github.com/tanvikreddy123/art-gallery-store",
-    live_demo_link: "#", 
+    live_demo_link: "https://art-gallery-frontend-4at0.onrender.com", 
   },
   {
     title: "FinDash - React Finance Dashboard",
-    description: "A responsive personal finance dashboard built with React and Syncfusion UI for complex data visualization. Utilizes the Context API for efficient global state management, eliminating prop drilling and improving component decoupling.",
-    tags: ["React", "Syncfusion UI", "Tailwind CSS", "Context API"],
+    description: "A responsive personal finance dashboard built with React to track income, expenses, and budgets. Features interactive charts and data grids with Syncfusion UI and efficient state management using the Context API.",
+    tags: [],
     source_code_link: "https://github.com/tanvikreddy123/personal-finance-dashboard",
     live_demo_link: "https://personal-finance-dashboard-dusky.vercel.app/", 
   },
   {
     title: "PawPal API - Secure Pet Adoption Backend",
-    description: "A secure RESTful backend for a pet adoption platform, built with Java and Spring Boot. Manages pet listings and user workflows, with endpoints secured by Spring Security and JWT for Role-Based Access Control (RBAC).",
-    tags: ["Java", "Spring Boot", "Spring Security", "JWT", "MySQL"],
+    description: "A secure RESTful backend for a pet adoption platform, built with Java and Spring Boot. Implements JWT-based authentication, role-based access for users and admins, and manages the full adoption workflow from pet listings to approval.",
+    tags: [],
     source_code_link: "https://github.com/tanvikreddy123/pawpal_api",
     live_demo_link: null, 
   },
+  {
+    title: "Personal Portfolio Website",
+    description: "A fully responsive personal portfolio built with React, Vite, and Tailwind CSS. Features a clean, modern design with smooth animations powered by Framer Motion, and is easily updatable via a centralized data file.",
+    tags: [],
+    source_code_link: "https://github.com/tanvikreddy123/portfolio",
+    live_demo_link: "https://portfolio-tau-pink-m1a3s80ioj.vercel.app/", 
+  }
 ];
 
 export const certifications = [
@@ -151,11 +164,6 @@ export const certifications = [
     name: "The Complete Full Stack Web Development Bootcamp",
     issuer: "Udemy",
     link: "https://www.udemy.com/certificate/UC-769dbb78-4261-49ed-88ca-959337333e10/", 
-  },
-  {
-    name: "React Certification",
-    issuer: "Scrimba",
-    link: "#", 
   },
   {
     name: "J.P Morgan Software Engineering Job Simulation",
@@ -186,3 +194,32 @@ export const publication = {
     doi: "10.1109/SMARTCOMP65954.2025.00080",
     abstract: "Food insecurity (FI) is a persistent public health issue in the United States, disproportionately affecting racially and ethnically marginalized populations while also contributing to heightened health risks... Our innovative, personalized mobile health application designed to enhance traditional FoodRx approaches by providing customized nutrition... MyFoodRx offers a novel, application for delivering personalized dietary recommendations for improved health outcomes."
 };
+
+export const experiences = [
+  {
+    company: "JP Morgan Chase",
+    role: "Full Stack Developer",
+    location: "USA",
+    dates: "Aug 2024 – Present",
+    points: [
+      "Built a fraud detection system processing 15K+ suspicious transactions/month.",
+      "Deployed 20+ REST APIs & microservices handling 5M+ transactions/day.",
+      "Delivered responsive apps with React.js (web) & React Native (mobile).",
+      "Scaled services on AWS EKS with Docker & Kubernetes.",
+      "Automated CI/CD with Jenkins & GitHub Actions."
+    ]
+  },
+  {
+    company: "Sigma Info Tech",
+    role: "Full Stack Developer",
+    location: "India",
+    dates: "Mar 2022 – July 2023",
+    points: [
+      "Built an insurance claims platform serving 5K+ users.",
+      "Designed Spring Boot & Node.js microservices for claims and policies.",
+      "Developed a role-based React.js UI improving task speed by 25%.",
+      "Secured 50K+ documents with AWS S3.",
+      "Implemented JWT & OAuth2 for multi-role authentication."
+    ]
+  }
+];

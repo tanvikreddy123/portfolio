@@ -14,11 +14,11 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-left text-4xl font-bold">
-            <p>A passionate developer building scalable, AI-driven solutions.</p>
+            <p>A passionate developer building secure, scalable, and user-focused solutions.</p>
           </div>
           <div>
             <p className="text-[#8892b0]">
-              My expertise lies in building scalable web and mobile applications using Java, Spring Boot, and React. I am proficient across the entire stack—from database design and cloud deployment with AWS, to implementing secure authentication. My expertise extends to integrating AI into full-stack development to create user-centric solutions, and my work on AI-powered health applications has culminated in a peer-reviewed publication at the IEEE SMARTCOMP conference.
+              I’m a Full Stack Developer who enjoys building secure, scalable, and user-friendly applications. From AI-powered health apps to financial dashboards and cloud-native systems, I work across the stack with Java, Spring Boot, Node.js, React, and cloud platforms like AWS and Azure — always exploring how modern tech and AI can create solutions that make an impact.
             </p>
             <div className='mt-6'>
                 <a 

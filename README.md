@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website, built with modern web technologies to showcase my skills, projects, and professional experience as a Full Stack Developer.
 
-**Live Site:** [https://your-deployed-url.vercel.app](https://your-deployed-url.vercel.app)  
+**Live Site:** [https://portfolio-tau-pink-m1a3s80ioj.vercel.app/](https://portfolio-tau-pink-m1a3s80ioj.vercel.app/)  
 
 ---
 
