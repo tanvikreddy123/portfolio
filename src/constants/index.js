@@ -120,18 +120,18 @@ export const projects = [
     live_demo_link: "#", 
   },
   {
+    title: "ClinicFlow – AI-Powered Patient Intake System",
+    description: "A full-stack healthcare intake system that makes patient check-ins simple and conversational. Patients use a React Native chatbot powered by Google Dialogflow CX, their data flows into a Node.js/Express + MongoDB backend, and clinic staff can review, filter, and manage encounters in real time through a React dashboard.",
+    tags: [],
+    source_code_link: "https://github.com/tanvikreddy123/clinicflow",
+    live_demo_link: "#", 
+  },
+  {
     title: "Art Gallery Store - Full-Stack MERN E-Commerce Platform",
     description: "A full-stack MERN web application for an online art gallery store, featuring a secure Node.js/Express RESTful API with JWT authentication, owner-based authorization, and a dynamic React UI for managing art listings.",
     tags: [],
     source_code_link: "https://github.com/tanvikreddy123/art-gallery-store",
     live_demo_link: "https://art-gallery-frontend-4at0.onrender.com", 
-  },
-  {
-    title: "FinDash - React Finance Dashboard",
-    description: "A responsive personal finance dashboard built with React to track income, expenses, and budgets. Features interactive charts and data grids with Syncfusion UI and efficient state management using the Context API.",
-    tags: [],
-    source_code_link: "https://github.com/tanvikreddy123/personal-finance-dashboard",
-    live_demo_link: "https://personal-finance-dashboard-dusky.vercel.app/", 
   },
   {
     title: "PawPal API - Secure Pet Adoption Backend",
@@ -141,7 +141,14 @@ export const projects = [
     live_demo_link: null, 
   },
   {
-    title: "Personal Portfolio Website",
+    title: "FinDash - React Finance Dashboard",
+    description: "A responsive personal finance dashboard built with React to track income, expenses, and budgets. Features interactive charts and data grids with Syncfusion UI and efficient state management using the Context API.",
+    tags: [],
+    source_code_link: "https://github.com/tanvikreddy123/personal-finance-dashboard",
+    live_demo_link: "https://personal-finance-dashboard-dusky.vercel.app/", 
+  },
+  {
+    title: "Portfolio",
     description: "A fully responsive personal portfolio built with React, Vite, and Tailwind CSS. Features a clean, modern design with smooth animations powered by Framer Motion, and is easily updatable via a centralized data file.",
     tags: [],
     source_code_link: "https://github.com/tanvikreddy123/portfolio",
