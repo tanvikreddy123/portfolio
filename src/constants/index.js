@@ -112,10 +112,10 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Personalized Food Rx – AI-Powered Health Chatbot App",
+    title: "MyFoodRx – AI-Powered Health Chatbot App",
     description: "Cross-platform Flutter app designed to empower users managing chronic conditions and food insecurity with personalized nutrition guidance. Combines an AI chatbot (Dialogflow CX), diet education, and smart health tips, supported by a Node.js backend, MongoDB Atlas, and secure OAuth2 authentication.",
     tags: [],
-    source_code_link: "https://github.com/tanvikreddy123/nutrimate-foodrx-healthbot",
+    source_code_link: "https://github.com/tanvikreddy123/MyFoodRx",
     publication_link: "10.1109/SMARTCOMP65954.2025.00080",
     live_demo_link: "#", 
   },
