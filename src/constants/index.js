@@ -158,9 +158,19 @@ export const projects = [
 
 export const certifications = [
   {
+    name: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+    issuer: "Oracle",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=64E886C93C9234C41C25AD81BE57C58CF15510241FC7B9DAE64FB2CC01501960", 
+  },
+  {
     name: "Oracle Certified Professional: Java SE 17 Developer",
     issuer: "Oracle",
     link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=66211B5FB2506265949CCFA0004B74289C40F4C427987E74B40057B220E309C2", 
+  },
+  {
+    name: "AI Fundamentals",
+    issuer: "IBM",
+    link: "https://www.credly.com/badges/f8eeee35-031e-46c7-b38c-c142c7b42a12/public_url", 
   },
   {
     name: "Foundations of Databases for Developers",
@@ -181,11 +191,6 @@ export const certifications = [
     name: "AWS Solutions Architect Simulation",
     issuer: "AWS (Forage)",
     link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_5ZZSjFrdLStpYkM2J_1749782396213_completion_certificate.pdf",
-  },
-  {
-    name: "AI Fundamentals",
-    issuer: "IBM",
-    link: "https://www.credly.com/badges/f8eeee35-031e-46c7-b38c-c142c7b42a12/public_url", 
   },
   {
     name: "Section ProfAI: AI Proficiency",
