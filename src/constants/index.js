@@ -168,6 +168,11 @@ export const certifications = [
     link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=66211B5FB2506265949CCFA0004B74289C40F4C427987E74B40057B220E309C2", 
   },
   {
+    name: "Oracle Cloud Infrastructure 2025 Developer Professional",
+    issuer: "Oracle",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=4E0AEB12D051C0A7FE7858DD6CF5E6BDE59F5F0940C951FE0767EE402D2F4D90", 
+  },
+  {
     name: "AI Fundamentals",
     issuer: "IBM",
     link: "https://www.credly.com/badges/f8eeee35-031e-46c7-b38c-c142c7b42a12/public_url", 
